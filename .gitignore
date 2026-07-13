@@ -30,3 +30,5 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+!**/src/DSA_260709/*.txt
