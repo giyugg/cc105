@@ -49,10 +49,10 @@ public class RemoteRunner {
     }
     public static void options() {
         Remote ctrl = new Remote();
-        //swtich options 1 2 3 4
+        int option;
         do {
             System.out.print("Enter choice (1-6): ");
-            int option = sc.nextInt();
+            option = sc.nextInt();
             switch(option) {
                 case 1:
                     ctrl.powerOff();
@@ -70,6 +70,6 @@ public class RemoteRunner {
                     ctrl.channelDown();
                     break;
             }
-        }
+        } while (option != 1);
     }
 }
