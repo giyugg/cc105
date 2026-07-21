@@ -42,14 +42,14 @@ public class MyRunnerClass2 {
     }
 }
 
-class Student {
+class Studented {
     private String idNumber, name, course;
 
-    Student() {
+    Studented() {
         System.out.println("Hello");
     }
 
-    Student(String s1, String s2, String s3) {
+    Studented(String s1, String s2, String s3) {
         this.idNumber = s1;
         this.name = s2;
         this.course = s3;
